@@ -1,0 +1,88 @@
+/* ============== GLOBAL STYLES ============= */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px #3c3c3c;
+    margin: 0 auto;
+    width: 450px;
+    color: #eeeeee;
+    background-color: #ffffff;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul,
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  button {
+    line-height: 0;
+    cursor: pointer;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+.header{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.wrapper{
+    border:3px solid #e29a9a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 400px;
+    
+}
+.input{
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid #eeeeee;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    color: #eeeeee;
+}
+.check{
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid #eeeeee;
+    border-radius: 10px;
+    color: #eeeeee;
+
+}
